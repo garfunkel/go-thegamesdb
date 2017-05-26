@@ -5,7 +5,15 @@ import (
 )
 
 func TestGetGamesList(t *testing.T) {
+	games, err := GetGamesList("Crash Bandicoot", "Sony PlayStation", "Adventure")
 
+	if err != nil {
+		t.Error(err)
+	}
+
+	if len(*games) != 3 {
+		t.Errorf("Expected %v games, got %v", 5, len(*games))
+	}
 }
 
 func TestGetGame(t *testing.T) {
