@@ -12,34 +12,34 @@ func TestGetGame(t *testing.T) {
 
 }
 
-func GetArt(t *testing.T) {
+func TestGetArt(t *testing.T) {
 
 }
 
-func GetPlatformsList(t *testing.T) {
+func TestGetPlatformsList(t *testing.T) {
 
 }
 
-func GetPlatform(t *testing.T) {
+func TestGetPlatform(t *testing.T) {
 
 }
 
-func GetPlatformGames(t *testing.T) {
+func TestGetPlatformGames(t *testing.T) {
 
 }
 
-func PlatformGames(t *testing.T) {
+func TestPlatformGames(t *testing.T) {
 
 }
 
-func Updates(t *testing.T) {
+func TestUpdates(t *testing.T) {
 
 }
 
-func UserRating(t *testing.T) {
+func TestUserRating(t *testing.T) {
 
 }
 
-func UserFavorites(t *testing.T) {
+func TestUserFavorites(t *testing.T) {
 
 }
